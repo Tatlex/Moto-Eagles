@@ -1,0 +1,100 @@
+.browser{
+    background-color: white;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+#navigation{
+    /* Navigation bar setting's */
+    width: 100%;
+    height: 30px;
+    border: solid 1px black;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 10px 5px 10px;
+    position: fixed;   /* fixed position of side bar */
+    top: 0;
+}
+
+ /*
+  button setting's in Navigation bar
+ */
+
+.menu{
+    width: 100px;
+    font-size: large;
+    color: white;
+    background-color: black;
+    border: solid 2px white;
+    border-radius: 10px;
+    font-family: "Times New Roman", serif;
+    margin-left: 25px;
+}
+
+.input-search{
+    width: 100px;
+    font-size: large;
+    color: white;
+    background-color: white;
+    border: solid 2px white;
+    border-radius: 10px;
+    font-family: "Times New Roman", serif;
+    margin-left: 25px;
+}
+/*
+  image logo setting's
+ */
+
+#logo{
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin-left: 40%;
+}
+
+main{
+    width: 60%;
+    height: 150%;
+    padding: 5px;
+    background-color: lightgray;
+    border: solid 3px black;
+    border-radius: 15px;
+    margin: 0 0 0 20%;
+}
+
+#main_paragraph {
+    width: 80%;
+    height: 30%;
+    text-align: center;
+    margin-left: 10%;
+    font-family: "Yu Gothic Medium", serif;
+    font-weight: bold;
+    background-color: white;
+    border: solid 1px black;
+
+}
+
+#main_header{
+    font-family: "Yu Gothic Medium", serif;
+    font-style: italic;
+    text-align: center;
+}
+
+#main_video{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 4px 4px 14px #000;
+    -webkit-box-shadow: 4px 4px 14px #000;
+    box-shadow: 4px 4px 14px #000;
+    -moz-transform:rotate(20deg);
+
+}
