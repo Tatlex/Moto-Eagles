@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
 <head>
     <meta charset="UTF-8">
     <title>Moto-Eagles</title>
@@ -7,45 +8,67 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <header>
     <nav id="navigation">
-        <button class="menu">News</button>
-        <button class="menu">Gallery</button>
-        <button class="menu">Video</button>
-        <button class="menu">Help</button>
+        <button class="menu"><a href="Index.html" class="menu_button">Home</a></button>
+        <button class="menu"><a href="News.html" class="menu_button">News</a></button>
+        <button class="menu"><a href="Gallery.html" class="menu_button">Gallery</a></button>
+        <button class="menu"><a href="Video.html" class="menu_button">Video</a></button>
+        <button class="menu"><a href="Help.html" class="menu_button">Help</a></button>
         <label>
             <input class="input-search" type="search" placeholder="search">
         </label>
     </nav>
     <!-- TODO: Make a normal navigation bar -->
 </header>
+
 <section>
     <div>
         <img id="logo" src="img/logo.png" alt="Picture not found">
     </div>
 </section>
+
 <main>
     <iframe id="main_video"  width="600" height="400"
      src="https://www.youtube.com/embed/owRg4tsAGZY">
     </iframe>
-    <h2 id="main_header">"A bit of history and facts"</h2>
-    <p id="main_paragraph">A motorcycle, often called a motorbike, bike, or cycle, is a two- or three-wheeled motor vehicle.
-        Motorcycle design varies greatly to suit a range of different purposes: long-distance travel, commuting, cruising, sport including racing, and off-road riding.
+    <article id="main_article">
+    <h2 class   ="main_header">"A bit of history and facts"</h2>
+
+    <div id="article-text">
+        <p id="main_paragraph">A motorcycle, often called a motorbike, bike, or cycle, is a two- or three-wheeled motor vehicle.
+        <br>Motorcycle design varies greatly to suit a range of different purposes: long-distance travel, commuting, cruising, sport including racing, and off-road riding.
         Motorcycling is riding a motorcycle and related social activity such as joining a motorcycle club and attending motorcycle rallies.
-        The 1885 Daimler Reitwagen made by Gottlieb Daimler and Wilhelm Maybach in Germany was the first internal combustion, petroleum fueled motorcycle.
-        In 1894, Hildebrand & Wolfmüller became the first series production motorcycle.
-        In 2014, the three top motorcycle producers globally by volume were Honda (28%), Yamaha (17%) (both from Japan), and Hero MotoCorp (India).In developing countries, motorcycles are considered utilitarian due to lower prices and greater fuel economy.
+        The 1885 Daimler Reawaken made by Gottlieb Daimler and Wilhelm Maybach in Germany was the first internal combustion, petroleum fueled motorcycle.
+        <br>In 1894, Hildebrand & Wolfmüller became the first series production motorcycle.
+        In 2014, the three top motorcycle producers globally by volume were <a href="https://en.wikipedia.org/wiki/Honda#Motorcycles_2" target="_blank">Honda</a> (28%),
+        <a href="https://en.wikipedia.org/wiki/Yamaha_Motor_Company" target="_blank">Yamaha</a> (17%) (both from Japan) and the most popular is a
+        <a href="https://en.wikipedia.org/wiki/Harley-Davidson" target="_blank">Harley Davidson</a>.
+        In developing countries, motorcycles are considered utilitarian due to lower prices and greater fuel economy.
         Of all the motorcycles in the world, 58% are in the Asia-Pacific and Southern and Eastern Asia regions, excluding car-centric Japan.
-        According to the US Department of Transportation, the number of fatalities per vehicle mile traveled was 37 times higher for motorcycles than for cars.</p>
+        According to the US Department of Transportation, the number of fatalities per vehicle mile traveled was 37 times higher for motorcycles than for cars.
+        </p>
+    </div>
+        <h2 class ="main_header">"Old-school chopper's"</h2>
+        <div class="main_images">
+        <br>
+        <img src="img/main_first.png" alt="">
+        <img src="img/main_second.png" alt="">
+            <br>
+        <img src="img/main_third.png" alt="">
+        <img src="img/main_fourth.png" alt="">
+            <br>
+        <img src="img/main_fifth.png" alt="">
+        <img src="img/main_sixth.png" alt="">
+        </div>
+    </article>
 </main>
+
 <aside>
-    Боковая колонка (сайдбар)
+
 </aside>
 <footer>
-    Подвал тебя за ногу ... ,kz[fgdbbrbfrbfb
-    fbfgbgbgbhg
-    fgngfngnhgn
 
-    fgnghnghngns
 </footer>
 </html>

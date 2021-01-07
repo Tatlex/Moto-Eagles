@@ -17,6 +17,7 @@ body, html{
     border-radius: 10px;
     padding: 10px 10px 5px 10px;
     position: fixed;   /* fixed position of side bar */
+    margin: auto;
     top: 0;
 }
 
@@ -33,12 +34,19 @@ body, html{
     border-radius: 10px;
     font-family: "Times New Roman", serif;
     margin-left: 25px;
+    text-decoration: none;
+}
+
+.menu_button{
+    text-decoration: none;
+    color: #ffffff;
+
+
 }
 
 .input-search{
     width: 100px;
     font-size: large;
-    color: white;
     background-color: white;
     border: solid 2px white;
     border-radius: 10px;
@@ -51,35 +59,39 @@ body, html{
 
 #logo{
     background-color: white;
-    width: 400px;
-    height: 300px;
+    display: block;
+    width: 30%;
+    height: 30%;
     text-align: center;
-    margin-left: 40%;
+    margin: auto;
 }
 
 main{
-    width: 60%;
-    height: 150%;
+    width: 70%;
     padding: 5px;
     background-color: lightgray;
     border: solid 3px black;
     border-radius: 15px;
-    margin: 0 0 0 20%;
+    margin: auto;
 }
 
 #main_paragraph {
-    width: 80%;
-    height: 30%;
+    width: 95%;
     text-align: center;
-    margin-left: 10%;
+    padding: 20px 20px 20px 20px;
     font-family: "Yu Gothic Medium", serif;
     font-weight: bold;
     background-color: white;
-    border: solid 1px black;
-
+    border: solid 3px black;
+    border-radius: 15px;
+    color: black;
 }
 
-#main_header{
+#article-text{
+    padding: 20px;
+}
+
+.main_header{
     font-family: "Yu Gothic Medium", serif;
     font-style: italic;
     text-align: center;
@@ -88,7 +100,7 @@ main{
 #main_video{
     margin-top: 40px;
     margin-bottom: 30px;
-    margin-left: 180px;
+    margin-left: 220px;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
     border-radius: 12px;
@@ -96,5 +108,11 @@ main{
     -webkit-box-shadow: 4px 4px 14px #000;
     box-shadow: 4px 4px 14px #000;
     -moz-transform:rotate(20deg);
+}
 
+.main_images{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    height: 60%;
 }
