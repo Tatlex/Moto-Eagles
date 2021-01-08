@@ -9,7 +9,8 @@ body, html{
 
 #navigation{
     /* Navigation bar setting's */
-    width: 100%;
+    width: calc(100% - (-99px));
+    margin-left: -50px;
     height: 30px;
     border: solid 1px black;
     background-color: black;
@@ -17,7 +18,6 @@ body, html{
     border-radius: 10px;
     padding: 10px 10px 5px 10px;
     position: fixed;   /* fixed position of side bar */
-    margin: auto;
     top: 0;
 }
 
@@ -75,7 +75,7 @@ main{
     margin: auto;
 }
 
-#main_paragraph {
+.main_paragraph {
     width: 95%;
     text-align: center;
     padding: 20px 20px 20px 20px;
@@ -87,7 +87,7 @@ main{
     color: black;
 }
 
-#article-text{
+.article-text{
     padding: 20px;
 }
 
@@ -110,9 +110,36 @@ main{
     -moz-transform:rotate(20deg);
 }
 
-.main_images{
+/* configuration <div> with retro images on main paige */
+#retro_choppers{
     text-align: center;
-    margin: auto;
-    width: 60%;
-    height: 60%;
+}
+
+.main_images{
+    margin: 20px 20px 20px 20px;
+    width: 380px;
+    height: 280px;
+    border: solid 3px black;
+    border-radius: 20px;
+}
+
+/*
+#main list - configuration of ordered list on main paige
+*/
+#main_list{
+    width: 95%;
+    padding: 20px 20px 20px 20px;
+    font-family: "Yu Gothic Medium", serif;
+    font-weight: bold;
+    background-color: white;
+    border: solid 3px black;
+    border-radius: 15px;
+    color: black;
+}
+
+.list_pictures{
+    width: 70%;
+    text-align: center;
+    display:block;
+    margin:0 auto;
 }
