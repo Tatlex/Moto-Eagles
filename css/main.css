@@ -161,3 +161,31 @@ main{
 .footer_paragraph{
     text-align: center;
 }
+
+/*************************************************************************/
+/*                     Configuration's for gallery page                  */
+/*************************************************************************/
+
+.gallery_div{
+    text-align: center;
+}
+
+.gallery_img{
+    text-align: center;
+    border: solid 3px black;
+    border-radius: 20px;
+    width: 570px;
+    height: 350px;
+    margin: 30px;
+}
+
+.gallery_links{
+    font-family: "Yu Gothic Medium", serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    border: solid 3px black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
