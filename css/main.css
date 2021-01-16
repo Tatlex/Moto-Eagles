@@ -215,3 +215,48 @@ main{
     font-family: "Yu Gothic Medium", serif;
     font-weight: bold;
 }
+
+/*************************************************************************/
+/*                     Configuration's for news page                    */
+/*************************************************************************/
+
+.news_div{
+    width: auto;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+    border: solid 3px black;
+    border-radius: 15px;
+    color: black;
+    align-items: normal;
+    display: flex;
+}
+
+.news_image{
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 20px 50px 20px 10px;
+    height: 250px;
+    width: 350px;
+}
+
+.news_paragraph{
+    font-family: "Yu Gothic Medium", serif;
+    font-weight: bold;
+}
+
+.article_footer{
+    list-style: none;
+    font-family: "Yu Gothic Medium", serif;
+}
+
+.news_links{
+    font-family: "Yu Gothic Medium", serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    border: solid 3px black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+}
