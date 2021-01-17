@@ -205,6 +205,19 @@ main{
     align-items: normal;
 }
 
+.video_paragraph{
+    font-family: "Yu Gothic Medium", serif;
+    font-weight: bold;
+    width: auto;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+    border: solid 3px black;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .video_player{
     border-radius: 10px;
     border: solid 3px black;
@@ -259,4 +272,32 @@ main{
     background-color: white;
     padding: 10px;
     margin: auto;
+}
+
+/*************************************************************************/
+/*                     Configuration's for Help page                    */
+/*************************************************************************/
+
+.help_div{
+    text-align: center;
+    margin: auto;
+}
+
+.help_header{
+    font-family: "Yu Gothic Medium", serif;
+    font-weight: bold;
+    background-color: white;
+    padding: 30px;
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+.help_image{
+    border: solid 5px black;
+    border-radius: 10px;
+    height: 700px;
+    width: 990px;
+    text-align: center;
 }
